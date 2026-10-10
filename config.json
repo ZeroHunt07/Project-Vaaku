@@ -1,0 +1,18 @@
+{
+  "db_path": "audit.db",
+  "snapshot_dir": "snapshots",
+  "monitor_dirs": ["~/Documents", "~/Desktop"],
+  "window_poll_seconds": 3,
+  "window_debug": false,
+  "camera_snapshot": false,
+  "camera_index": 0,
+  "camera_width": 1280,
+  "camera_height": 720,
+  "camera_warmup_frames": 15,
+  "camera_settle_seconds": 1.2,
+  "camera_best_of": 5,
+  "typing_pulse_seconds": 5.0,
+  "tui_auto_refresh_seconds": 5.0,
+  "retention_days": 30,
+  "web_server_port": 8765
+}

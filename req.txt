@@ -1,0 +1,6 @@
+pystray
+Pillow
+watchdog
+psutil
+pywinctl
+opencv-python   # optional, only for consent-based snapshot
