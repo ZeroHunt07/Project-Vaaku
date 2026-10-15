@@ -2,5 +2,9 @@ pystray
 Pillow
 watchdog
 psutil
+pynput
 pywinctl
-opencv-python   # optional, only for consent-based snapshot
+opencv-python
+textual
+pynput
+evdev; sys_platform == "linux"

@@ -4,7 +4,7 @@
   "monitor_dirs": ["~/Documents", "~/Desktop"],
   "window_poll_seconds": 3,
   "window_debug": false,
-  "camera_snapshot": false,
+  "camera_snapshot": true,
   "camera_index": 0,
   "camera_width": 1280,
   "camera_height": 720,
@@ -14,5 +14,19 @@
   "typing_pulse_seconds": 5.0,
   "tui_auto_refresh_seconds": 5.0,
   "retention_days": 30,
-  "web_server_port": 8765
+  "web_server_port": 8765,
+  "face_lock": {
+    "enabled": true,
+    "interval_seconds": 15,
+    "similarity_threshold": 0.363,
+    "consecutive_failures_to_lock": 1,
+    "lock_on_no_face": true,
+    "lock_on_multiple_faces": true,
+    "lock_on_unauthorized": true,
+    "faces_dir": "faces",
+    "models_dir": "models",
+    "notify_on_lock": true,
+    "camera_index": 0,
+    "camera_warmup_frames": 3
+  }
 }
